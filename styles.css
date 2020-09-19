@@ -1,0 +1,129 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 7px;
+  border-color: #EAF6F6;
+  margin: 80px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.code {
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: normal;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 5.625rem;
+  color: #393E46;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #393E46;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 140px;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ui-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.myButton {
+  box-shadow: 0 1px 0 0 #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 50px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #5b6178;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.contacticon {
+  width: 32px;
+  height: 32px;
+  padding: 20px 5px;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.attributes {
+  font-size: 11px;
+}
